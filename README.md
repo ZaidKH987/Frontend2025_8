@@ -8,4 +8,5 @@ In this repo will start to add atable with course indexes and links to more deta
 | #| Title | Link
 | -| -| -| 
 | 1| Installation |[link](./Classes/Class1.md)
-| 2| Readme | [link](./Classes/Class1.md)
+| 2| Readme | [link](./Classes/Class2.md)
+|3|HTML and introduction to CSS| [link](./Classes/class3.md)
