@@ -2,19 +2,55 @@
 <html>
     <head>
         <title>Index page 2</title>
+        <style>
+           #zid {
+            color: blue;
+            font-size: 2em;
+           }
+
+           .zclass{
+            color: darkgoldenrod;
+           }
+
+           body{
+           
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            word-spacing: 105px;
+            line-height: 10px;
+             text-indent: 2px;
+            text-align: center;
+
+           }
+
+           #area1{
+            background-color: aquamarine;
+           }
+
+           #area2{
+            background-color: blue;
+           }
+
+           #area2>button{
+            border-width: 10px;
+           }
+        </style>
     </head>
     <body>
-        
+        <!--area1-->
+        <div id="area1">
         <img  src="./Media/download (1).jpeg"  alt="Error" height="55" width="66" />
             
               <ul>
-                <li>first</li>
-                <li>second</li>
+                <li class="zclass">first</li>
+                <li class="zclass">second</li>
               </ul>
 <button style="color: blue; font-style: italic;">PRESS HERE please</button>
 <a href="https://gmail.com" target="_blank"> go to my mail</a>
-
-             <table>
+</div>
+<!--area2-->
+<div id="area2">
+             <table border="1">
 <thead>
     <tr>
         <th>ID</th>
@@ -35,10 +71,18 @@
         <td>Ahmad</td>
        <td>ggg.ggg</td>
     </tr>
+    
+    <tr>
+        <td>20201</td>
+        <td id="zid">Younis</td>
+        <td>yahoo.com</td>
+    </tr>
 </tbody>
    </table>
+   <button>press here1 </button>
+   <button>press here 2</button>
                
-
+</div>
   
     
 </html>
