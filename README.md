@@ -13,3 +13,4 @@ In this repo will start to add atable with course indexes and links to more deta
 |4| HTML forms| [link](./classes/class4.md)
 |5| Styling and make seperate css file| [link](./classes/class5.md)
 |6| grids| [link](./classes/class6.md)
+|7| css positioning| [link](./Classes/class7.md)
