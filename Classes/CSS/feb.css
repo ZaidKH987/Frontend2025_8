@@ -1,0 +1,64 @@
+#nav{
+    grid-area: nav;
+    background-color: yellow;
+    height: 50px;
+}
+
+#footer{
+    grid-area: footer;
+    background-color: red;
+    height: 100px;
+}
+
+#main{
+    grid-area: main;
+    background-color: grey;
+    height: 400px;
+}
+
+#rightmenu{
+    grid-area: rightmenu;
+    background-color: green;
+}
+
+#leftmenu{
+    grid-area: leftmenu;
+    background-color: aqua;
+    height: 500px;
+}
+
+#container{
+    display: grid;
+    grid-template-areas: 'nav nav nav nav'
+    'leftmenu main main rightmenu'
+    'leftmenu main main rightmenu'
+    'leftmenu footer footer footer';
+}
+
+#nav>img{
+    display: inline;
+    height: 50px;
+    width: 100px;
+}
+
+#nav>button{
+    
+    margin-left: 10px;
+    margin-top: 11px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  
+    
+   
+}
+
+#leftmenu>ul{
+    list-style: none;
+}
+
+#leftmenu>ul>li>button{
+    text-align: center;
+    height: 20px;
+    width: 50px;
+    margin-top: 50px;
+}
