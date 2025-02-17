@@ -16,3 +16,5 @@ In this repo will start to add atable with course indexes and links to more deta
 |7| css positioning| [link](./Classes/class7.md)
 |8| Objects transforming| [link](./Classes/class8.md)
 |9| Grid templates areas| [link](./Classes/class9.md)
+|10|JS Intro|[link](./Classes/class10.md)
+|11|Boot strap|[link](./Classes/class11.md)
