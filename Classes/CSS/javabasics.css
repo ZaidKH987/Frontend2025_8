@@ -1,0 +1,42 @@
+#container{
+    display: grid;
+    grid-template-areas: 
+    'nav nav nav nav'
+    'rightmenu main main leftmenu'
+    'rightmenu main main leftmenu'
+    'rightmenu footer footer footer';
+    
+}
+
+#nav{
+    grid-area: nav;
+    background-color: brown;
+    height: 100px;
+}
+
+#rightmenu{
+    grid-area: rightmenu;
+    background-color: rgb(32, 179, 40);
+}
+}
+
+#leftmenu{
+
+grid-area: leftmenu;
+background-color: rgb(17, 62, 104);
+}
+
+
+#main{
+    grid-area: main;
+    background-color: rgb(83, 28, 60);
+    height: 500px;
+    width: 500px;
+}
+
+
+#footer{
+    grid-area: footer ;
+    background-color: rgb(139, 131, 14);
+
+}
