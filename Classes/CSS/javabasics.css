@@ -23,7 +23,7 @@
 #leftmenu{
 
 grid-area: leftmenu;
-background-color: rgb(17, 62, 104);
+background-color: rgb(115, 172, 224);
 }
 
 
@@ -38,5 +38,13 @@ background-color: rgb(17, 62, 104);
 #footer{
     grid-area: footer ;
     background-color: rgb(139, 131, 14);
+
+}
+
+@media screen and(max-width:500px)
+{
+body{
+    background-color: red;
+}
 
 }

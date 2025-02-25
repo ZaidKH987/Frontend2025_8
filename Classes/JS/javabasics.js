@@ -19,13 +19,15 @@ fun();
 
 function changetheme(colour)
 {
-    var cssfile=document.getElementById('cssfile');
-    if (colour=='black'){
- cssfile.href='css/dark.css';
-    }
+ var cssfile=document.getElementById('cssfile');
+ console.log(cssfile);
 
-    else{
-        cssfile.href='css/light.css';
-    }
+ if(colour=='black'){
+    cssfile.href='css/dark.css';
+ }
+
+ else{
+    cssfile.href='css/light.css';
+ }
 }
 

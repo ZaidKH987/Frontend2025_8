@@ -4,3 +4,10 @@ background-color: rgb(41, 39, 39);
 border: 2px solid rgb(248, 248, 248);
 color: black;
 }
+
+
+@media  screen and (max-width: 500px) {
+    body {
+      background-color: red;
+    }
+  }

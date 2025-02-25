@@ -80,3 +80,45 @@
     margin-left: 50px;
     margin-top: 50px;
 }
+
+#menubutton{
+    display: none;
+}
+
+@media  screen and (max-width: 500px) {
+    #container{
+        display: grid;
+        grid-template-areas: 'nav nav nav nav'
+        'rightmenu rightmenu rightmenu rightmenu'
+        'leftmenu main main main '
+        'leftmenu main main main'
+        'leftmenu footer footer footer';
+  }
+#rightmenu{
+    height: 150px;
+    display: none;
+}
+
+#menubutton{
+    display: inline;
+}
+}
+
+@media  screen and (max-width: 1024px) and (min-width: 501px) {
+    #container{
+        display: grid;
+        grid-template-areas: 'nav nav nav nav'
+     /*  'rightmenu rightmenu rightmenu rightmenu'*/
+        'leftmenu main main main '
+        'leftmenu main main main'
+        'leftmenu footer footer footer';
+  }
+#rightmenu{
+    height: 150px;
+    display: none;
+}
+
+#menubutton{
+    display: inline;
+}
+}
