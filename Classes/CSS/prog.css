@@ -1,0 +1,15 @@
+#myprogress{
+
+    height: 30px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(156, 137, 137);
+}
+
+#mybar{
+
+    background-color: rgb(85, 126, 66);
+    height: 30px;
+    width: 0px;
+    position:absolute;
+}
