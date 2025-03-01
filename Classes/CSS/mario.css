@@ -1,0 +1,29 @@
+#bg{
+
+    height: 1000px;
+    width: 2000px;
+    z-index: 0;
+    position: absolute;
+}
+
+#background{
+
+    position: relative;
+    }
+
+#icon{
+
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 870px;
+    margin-left: 50px;
+}
+
+#panel{
+    z-index: 1;
+    margin-left: 800px;
+    position: absolute;
+    margin-top: 750px;
+}

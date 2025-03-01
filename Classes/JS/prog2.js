@@ -14,7 +14,7 @@ function frame()
     if(width>=0)
     {   
         width--;
-        element.style.width=width-'%';
+        element.style.width=width+'%';
         console.log(width);
     }
 
