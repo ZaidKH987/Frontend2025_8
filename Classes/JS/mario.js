@@ -1,58 +1,34 @@
-function move(direction)
-{
-var id=document.getElementById('icon');
-var ho=id.style.left;
-var ver=id.style.bottom;
 
+var lpos=document.getElementById('icon');
+var rpos=document.getElementById('rm');
+var hor=rpos.style.left;
+var ver=lpos.style.left;
 
+function move(direction){
 
+   
 
-
-
-
-    if(ho=='')
-        {
-            ho=0;
-           
-        }
-
-        
-
-if(ver=='')
+    if(hor=='')
     {
-        ver=0;
+        hor=0;
+    }
+
+    if(direction=='right'){
+
+
+        hor=parseInt(hor) + 10;
+        lpos.style.left=hor+ 'px';
+        rpos.style.display='none'
+    }
+    
+    if(direction=='left'){
+
+        hor=parseInt(hor) - 10;
+        rpos.style.left=hor+ 'px';
+        lpos.style.display='none'
+    
     }
 
 
-if(direction=='left')
-{
-ho=parseInt(ho) - 10;
-id.style.left=ho+ 'px';
-console.log(ho);
-}
-
-
-if(direction=='right')
-{
-    ho=parseInt(ho)+ 10;
-    id.style.left=ho+'px';
-    console.log(ho);
-}
-
-
-
-if(direction=='up')
-    {
-        ver=parseInt(ver)+ 10;
-        id.style.bottom=ver+'px';
-        console.log(ver);
-    }
-
-    if(direction=='down')
-        {
-            ver=parseInt(ver)- 10;
-            id.style.bottom=ver+'px';
-            console.log(ver);
-        }
 
 }

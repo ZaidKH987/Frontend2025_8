@@ -29,5 +29,10 @@
 }
 
 #rm{
-    display: none  ;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 870px;
+    margin-left: 50px;  ;
 }
