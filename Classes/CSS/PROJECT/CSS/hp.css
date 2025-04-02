@@ -1,0 +1,253 @@
+#container{
+    display: grid;
+    grid-template-areas: 
+    'lsbar nav nav nav'
+    'lsbar main main rsbar'
+    'lsbar main main rsbar'
+    'lsbar main main rsbar' ;
+    background-color: #242424;
+    border-radius: 2%;
+    color: white;
+
+
+}
+
+body{
+    width: 1440px;
+    height: 960px;
+    margin: 10px;
+}
+
+#nav{
+    grid-area: nav;
+    border:solid black;
+    margin:2px;
+display: grid;
+grid-template-columns: 20% 60% 20%;
+    align-items: center;  
+}
+
+#lsbar{
+    grid-area: lsbar;
+    display: grid;
+    grid-template-rows: 12% 2% 12% 12% 12% 12% 12% 12%;
+    width: 100px;
+    height: 900px;
+margin-left: 7px;
+margin-top: 7px;border-radius: 2%;
+    background-color: #161717;
+}
+
+#rsbar{
+    grid-area: rsbar;
+    border:solid black;
+    width: 307px;
+    height: 808px;
+    margin:2px;
+    border-radius: 32px;
+}
+
+#main{
+    grid-area: main;
+    border:solid black;
+    margin:2px;
+    width:960px;
+    height:840px;
+
+}
+#main>h1{
+    display: inline;
+}
+.cards>.card{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;    
+    }
+
+.card{
+
+    width: 300px;
+    height: 159px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 6%;
+    
+}
+
+.card>img{
+    width: 136px;
+    height: 110px;
+margin-left: 170px;
+margin-top: 50px;
+}
+
+.bg1{
+    background-color: #0BF4C8;
+}
+
+.bg2{
+    background-color: #FAD85D;
+}
+
+.bg3{
+    background-color: #F2A0FF   ;
+}
+
+
+.card-title{
+/* Weekly Balance */
+
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+letter-spacing: 0.03em;
+
+color: #131215;
+
+}
+
+.card-text{
+    /* $20k */
+
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height */
+letter-spacing: 0.03em;
+
+color: #131215;
+
+
+}
+
+.card-link{
+    /* View entire list */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+
+color: #131215;
+
+
+}
+
+.slayer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 25px;
+
+}
+
+.slayer>.calendar{
+    border: solid black;
+    width: 281px;
+}
+
+.slayer>.sales{
+    border: solid black;
+    width: 625px;
+    height: 296px;
+
+}
+
+.thlayer{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 248px;
+    margin-top: 25px;
+}
+
+.wsales{
+    border: solid black;
+}
+
+.cusdet{
+    border: solid black;
+    background-color: black;
+    margin-left: 5px;
+}
+
+.cusdet>.cont>h1{
+    font-size:x-large;
+    color: white;
+}
+/*------------------------------------*/
+.cont{
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    margin-top: 10px;
+}
+
+.fil{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 75px;
+    border-width: 1px;
+    border-color: white;
+    border-radius:12%;
+
+}
+.dow{
+
+    background-color: #FAD85D;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    height: fit-content;
+    width: fit-content;
+    border-width: 0px;
+    border-color: white;
+    border-radius:12%;
+
+}
+
+.table{
+    background-color: black;
+}
+
+
+#lsbar>.b1>button{
+    margin-left: 12px;
+    margin-top: 100px;
+    width: 80px;
+    height: 55px;
+    background-color: #161717;
+    border: none;
+    padding: 1px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.bi{
+    color: white;
+    width: fit-content;
+    height: fit-content;}
+
+#lsbar>.b1>button:hover{
+    
+    background-color: #5e6161;
+}
+
+#nav1>input{
+    background-color: #545454;
+    border-radius: 10px;
+    margin-left: 10px;
+    width:191px;
+    height:53 px;
+    
+}
